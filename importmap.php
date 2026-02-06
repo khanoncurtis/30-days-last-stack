@@ -26,7 +26,7 @@ return [
         'path' => './vendor/symfony/stimulus-bundle/assets/dist/loader.js',
     ],
     'tom-select' => [
-        'version' => '2.4.5',
+        'version' => '2.4.3',
     ],
     '@orchidjs/sifter' => [
         'version' => '1.1.0',
@@ -35,7 +35,7 @@ return [
         'version' => '1.1.2',
     ],
     'tom-select/dist/css/tom-select.default.min.css' => [
-        'version' => '2.4.5',
+        'version' => '2.4.3',
         'type' => 'css',
     ],
     'tom-select/dist/css/tom-select.default.css' => [
@@ -49,5 +49,11 @@ return [
     'tom-select/dist/css/tom-select.bootstrap5.css' => [
         'version' => '2.4.5',
         'type' => 'css',
+    ],
+    '@symfony/ux-autocomplete' => [
+        'version' => '2.32.0',
+    ],
+    '@symfony/ux-autocomplete/controller' => [
+        'path' => './vendor/symfony/ux-autocomplete/assets/dist/controller.js',
     ],
 ];

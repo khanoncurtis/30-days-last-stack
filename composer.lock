@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b21ead9bb8265a7dc59ce93ac72a4efe",
+    "content-hash": "66bf3f79e079467104dc94b303dd3c19",
     "packages": [
         {
             "name": "composer/semver",
@@ -5660,48 +5660,49 @@
         },
         {
             "name": "symfony/ux-autocomplete",
-            "version": "3.x-dev",
+            "version": "2.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/ux-autocomplete.git",
-                "reference": "a0df9f09beacc86467f4fc52993edb9bdf81d79d"
+                "reference": "1de1a186e88e0ea72c50786a6a12fd2c2e2fd605"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/ux-autocomplete/zipball/a0df9f09beacc86467f4fc52993edb9bdf81d79d",
-                "reference": "a0df9f09beacc86467f4fc52993edb9bdf81d79d",
+                "url": "https://api.github.com/repos/symfony/ux-autocomplete/zipball/1de1a186e88e0ea72c50786a6a12fd2c2e2fd605",
+                "reference": "1de1a186e88e0ea72c50786a6a12fd2c2e2fd605",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.2",
-                "symfony/dependency-injection": "^6.4|^7.0|^8.0",
+                "php": ">=8.1",
+                "symfony/dependency-injection": "^6.3|^7.0|^8.0",
                 "symfony/deprecation-contracts": "^2.5|^3",
-                "symfony/http-foundation": "^6.4|^7.0|^8.0",
-                "symfony/http-kernel": "^6.4|^7.0|^8.0",
-                "symfony/property-access": "^6.4|^7.0|^8.0"
+                "symfony/http-foundation": "^6.3|^7.0|^8.0",
+                "symfony/http-kernel": "^6.3|^7.0|^8.0",
+                "symfony/property-access": "^6.3|^7.0|^8.0"
             },
             "conflict": {
                 "doctrine/orm": "2.9.0 || 2.9.1"
             },
             "require-dev": {
                 "doctrine/collections": "^1.6.8|^2.0",
-                "doctrine/doctrine-bundle": "^2.14|^3.0|^4.0",
+                "doctrine/doctrine-bundle": "^2.4.3|^3.0|^4.0",
                 "doctrine/orm": "^2.9.4|^3.0",
                 "fakerphp/faker": "^1.22",
                 "mtdowling/jmespath.php": "^2.6",
-                "phpunit/phpunit": "^11.1|^12.0",
-                "symfony/form": "^7.2|^8.0",
-                "symfony/framework-bundle": "^6.4|^7.0|^8.0",
+                "symfony/form": "^6.3|^7.0|^8.0",
+                "symfony/framework-bundle": "^6.3|^7.0|^8.0",
                 "symfony/maker-bundle": "^1.40",
-                "symfony/options-resolver": "^6.4|^7.0|^8.0",
-                "symfony/process": "^6.4|^7.0|^8.0",
-                "symfony/security-bundle": "^6.4|^7.0|^8.0",
-                "symfony/twig-bundle": "^6.4|^7.0|^8.0",
-                "symfony/uid": "^6.4|^7.0|^8.0",
+                "symfony/options-resolver": "^6.3|^7.0|^8.0",
+                "symfony/phpunit-bridge": "^6.3|^7.0|^8.0",
+                "symfony/process": "^6.3|^7.0|^8.0",
+                "symfony/security-bundle": "^6.3|^7.0|^8.0",
+                "symfony/twig-bundle": "^6.3|^7.0|^8.0",
+                "symfony/uid": "^6.3|^7.0|^8.0",
                 "twig/twig": "^2.14.7|^3.0.4",
-                "zenstruck/browser": "^1.9",
+                "zenstruck/browser": "^1.1",
                 "zenstruck/foundry": "^2.0"
             },
+            "default-branch": true,
             "type": "symfony-bundle",
             "extra": {
                 "thanks": {
@@ -5730,7 +5731,7 @@
                 "symfony-ux"
             ],
             "support": {
-                "source": "https://github.com/symfony/ux-autocomplete/tree/3.x"
+                "source": "https://github.com/symfony/ux-autocomplete/tree/2.x"
             },
             "funding": [
                 {
@@ -5750,7 +5751,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-02-01T13:44:07+00:00"
+            "time": "2026-02-03T22:14:09+00:00"
         },
         {
             "name": "symfony/validator",
