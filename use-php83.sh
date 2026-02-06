@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -euo pipefail
+export PATH="/opt/homebrew/opt/php@8.3/bin:/opt/homebrew/opt/php@8.3/sbin:$PATH"
+exec "$@"
