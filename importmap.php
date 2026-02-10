@@ -20,7 +20,7 @@ return [
         'version' => '0.13.1',
     ],
     '@hotwired/stimulus' => [
-        'version' => '3.2.2',
+        'version' => '3.2.1',
     ],
     '@symfony/stimulus-bundle' => [
         'path' => './vendor/symfony/stimulus-bundle/assets/dist/loader.js',
@@ -55,5 +55,14 @@ return [
     ],
     '@symfony/ux-autocomplete/controller' => [
         'path' => './vendor/symfony/ux-autocomplete/assets/dist/controller.js',
+    ],
+    '@symfony/ux-turbo' => [
+        'version' => '2.32.0',
+    ],
+    '@hotwired/turbo' => [
+        'version' => '8.0.21',
+    ],
+    'stimulus-popover' => [
+        'version' => '6.2.0',
     ],
 ];

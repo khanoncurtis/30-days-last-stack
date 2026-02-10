@@ -1,6 +1,7 @@
 import { startStimulusApp } from '@symfony/stimulus-bundle';
-import CelebrateController from './controllers/celebrate_controller.js';
+import Popover from 'stimulus-popover';
 
 const app = startStimulusApp();
+app.register('popover', Popover)
 // register any custom, 3rd party controllers here
-app.register('celebrate', CelebrateController);
+// app.register('some_controller_name', SomeImportedController);
